@@ -1,0 +1,55 @@
+.poisonTitle {
+    color: white;
+}
+
+.pompTitle {
+    color: rgb(34, 89, 208);
+}
+
+.infernoTitle {
+    color: rgb(0, 0, 0);
+    text-decoration: bold;
+    background-color: yellow;
+}
+
+.fatherTitle {
+    color: yellow;
+    text-decoration: bold;
+    background-color: green;
+}
+
+.doctorTitle {
+    color: red;
+    text-decoration: bold;
+    background-color: yellow;
+}
+
+.section1 {
+    background-color: rgb(133, 160, 220);
+}
+
+.section2 {
+    color: red;
+}
+
+.section3 {
+    background-color: rgb(140, 226, 140);
+}
+
+.section4 {
+    background-color: yellow;
+}
+
+.doctor {
+    color: orange;
+}
+
+a:link {
+    color: #039b13;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
