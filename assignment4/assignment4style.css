@@ -1,0 +1,104 @@
+body {
+    background-color: #ffffff;
+    background-image: url(isu.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#sans {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    color: #da5513;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+.info2 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+.ctkdesc1 {
+    text-align: justify;
+}
+
+.ctkdesc2 {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.descException {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.title {
+    color: #da5513;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.title2 {
+    color: #da5513;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h2 {
+    color: #da5513;
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3 {
+    color: #da5513;
+    background-color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.img {
+    border: 10px solid #000000;
+    background-color: yellow;
+    padding: 5px;
+}
+
+a:link {
+    color: #9e0000;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: #b8a604;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+  }   
+
+a:visited {
+    color: #007510;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
