@@ -1,0 +1,102 @@
+#wrapper {
+    width: 960px;
+    background-color: white;
+    border: 3px solid black;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+header {
+    grid-column: span 4;
+    color: white;
+    background-color: black;
+    padding-left: 10px;
+    margin: 15px;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-right: 3px;
+    border-bottom: 3px solid black;
+}
+
+main {
+    grid-column: span 3;
+    margin-right: 20px;
+}
+
+main img {
+    float: left;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.bpara {
+    font-weight: bold;
+}
+
+main a:link {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:visited {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+ul li {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+ul li a:hover {
+    background-color: rgb(161, 0, 0);
+}
+
+body {
+    background-image: url(a62.png);
+}
+
+footer {
+    grid-column: span 4;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    background-color: red;
+    border-top: 3px solid black;
+}
