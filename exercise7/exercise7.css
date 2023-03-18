@@ -1,0 +1,101 @@
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1em auto;
+    border: 3px solid black;
+}
+
+h1 {
+    background-color: rgb(68, 131, 226);
+    padding: 20px 50px 20px 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 3px solid black;
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+header {
+    grid-column: span 3;
+    font-family: Helvetica, Georgia, sans-serif;
+}
+
+nav {
+    grid-column: span 3;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 15px 30px 15px 20px;
+    margin: 0px 10px 5px 10px;
+    width: 120px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+ul li a:hover {
+    background-color: darkgreen;
+}
+
+body {
+    background-color: white;
+}
+
+main {
+    grid-column: span 2;
+    margin: 10 px;
+}
+
+main h2 {
+    border-bottom: 3px solid black;
+    padding: 0px 20px 10px 10px;
+    margin: 0px 10px 10px 10px;
+}
+
+main img {
+    width: 200px;
+    float: right;
+    margin: 5px;
+}
+
+main a {
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+}
+
+main p {
+    margin: 10px 10px 20px 10px;
+}
+
+aside {
+    grid-column: span 1;
+    color: white;
+    background-color: rgb(68, 131, 226);
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+}
+
+aside h2 {
+    border-bottom: 3px solid white;
+    padding-top: 0px;
+}
+
+footer {
+    grid-column: span 3;
+    padding: 10px;
+    background-color: rgb(68, 131, 226);
+    font-weight: bold;
+}

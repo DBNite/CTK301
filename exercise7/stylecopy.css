@@ -1,0 +1,73 @@
+/* This is a comment in CSS. */
+
+/* p {
+    color: #ff0000;
+    background-color: #aae2cd;    	
+  } 
+  */
+
+  /* Custom classes are defined with .[class] {
+    properties
+  }
+  */
+
+.specialp {
+
+    color:#0000FF;
+    background-color: lightgreen;
+}
+
+  /* Custom ids are defined with #[class] {
+    properties
+  }
+
+  CUSTOM IDS SHOULD ONLY BE USED ONCE PER PAGE. AT ALL OTHER TIMES, A CLASS SHOULD BE USED INSTEAD */
+
+  #specialid {
+
+    color: #006600;
+    background-color: orange;
+
+  }
+
+  #divexample {
+    background-color: blue;
+  }
+
+  .spanstyle {
+    color: red;
+  }
+
+  
+  a {
+    color: #ff0000;
+    text-decoration: none;
+ }
+  
+  /*
+  ia:lnk {
+    color: #00ff00;
+  }
+  
+  a:visited {
+    color: #0000ff;
+  }
+  
+  a:active {
+    color: #00ffff;
+  }
+  */
+
+  a:hover {
+    color: green;
+    text-decoration: underline;
+  }        
+  
+
+  /* 
+  a - all link states
+  a.link - not yet visited
+  a.visited - already visited
+  a.active
+  a.hover - hovering over
+  */
